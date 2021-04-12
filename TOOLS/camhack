@@ -1,3 +1,4 @@
+cd $home && cd HACKING-TOOLS && cd LIST
 git clone https://github.com/Devil-Tigers/CamHack
 cd CamHack
 bash CamHack.sh
