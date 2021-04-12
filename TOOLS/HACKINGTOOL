@@ -1,0 +1,7 @@
+cd $home && cd HACKING-TOOLS && cd LIST
+git clone https://github.com/Z4nzu/hackingtool.git
+chmod 777 hackingtool  
+cd hackingtool
+pip install -r requirement.txt
+bash install.sh
+python hackingtool.py
