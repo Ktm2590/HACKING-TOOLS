@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $home && cd HACKING-TOOLS && cd LIST
 git clone https://github.com/N74NK/MLBBTOOL
 cd MLBBTOOL
