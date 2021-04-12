@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $home && cd HACKING-TOOLS && cd LIST
 git clone https://github.com/Z4nzu/hackingtool.git
 chmod 777 hackingtool  
