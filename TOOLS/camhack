@@ -1,0 +1,3 @@
+git clone https://github.com/Devil-Tigers/CamHack
+cd CamHack
+bash CamHack.sh
