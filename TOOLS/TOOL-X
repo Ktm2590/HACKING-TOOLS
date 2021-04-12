@@ -1,0 +1,5 @@
+git clone https://github.com/rajkumardusad/Tool-X
+cd Tool-X
+pip install -r requirements.txt
+./install.aex
+Tool-X
