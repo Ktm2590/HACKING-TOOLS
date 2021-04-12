@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $home && cd HACKING-TOOLS && cd LIST
 termux-setup-storage
 cd /sdcard
