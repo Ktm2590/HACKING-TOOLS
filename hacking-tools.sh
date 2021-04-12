@@ -60,6 +60,11 @@ cd TOOLS && bash ONEX
 
 elif [[ $hug == 9 || $hug == 09 ]]; then
 cd TOOLS && bash TOOL-X
+
+sleep 2
+exit
+else echo -e $blue INVALID OPTIONS PLEASE TRY AGAIN
+bash hacking-tools.sh
 fi
 
 }
