@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $home && cd HACKING-TOOLS && cd LIST
 git clone https://github.com/PDGHACK-10/HACKER-TOOLS
 cd HACKER-TOOLS
