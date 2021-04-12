@@ -1,0 +1,3 @@
+git clone https://github.com/AngelSecurityTeam/BluForce-FB
+cd BluForce-FB
+python2 bluforcefb.py
