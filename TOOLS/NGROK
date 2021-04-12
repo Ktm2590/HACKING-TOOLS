@@ -1,0 +1,3 @@
+cd $home && cd HACKING-TOOLS && cd LIST
+git clone https://github.com/PDGHACK-10/NGROK
+bash ngrok.sh
