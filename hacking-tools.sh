@@ -78,7 +78,7 @@ cd TOOLS && bash ONEX
 elif [[ $hug == 9 || $hug == 09 ]]; then
 cd TOOLS && bash TOOL-X
 
-elif [[ $hug == 00 || $hug == 00 ]]; then
+elif [[ $hug == 0 || $hug == 00 ]]; then
 echo -e $red THANKS FOR USING THIS TOOL BYE BYE
 exit
 sleep 2
