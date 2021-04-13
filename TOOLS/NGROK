@@ -1,4 +1,6 @@
 #!/bin/bash
 cd $home && cd HACKING-TOOLS && cd LIST
+apt install wget
+apt install php
 git clone https://github.com/PDGHACK-10/NGROK
 bash ngrok.sh
