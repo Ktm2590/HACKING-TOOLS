@@ -1,5 +1,8 @@
 #!/bin/bash
-##coded by prince gutierrez
+## CODED BY : PRINCE GUTIERREZ
+## VERSION :2.1
+## GITHUB : https://github.com/PDGHACK-10
+## THANKS FOR USING THIS TOOL 
 blue='\033[31;1m'
 red='\033[32;1m'
 green='\033[33;1m'
@@ -19,7 +22,6 @@ command -v git > /dev/null 2>&1 || { echo >&2 "I require git but it's not instal
 tools(){
 
 
-
 echo -e $red ██╗░░██╗░█████╗░░█████╗░██╗░░██╗██╗███╗░░██╗░██████╗░
 echo -e $red ██║░░██║██╔══██╗██╔══██╗██║░██╔╝██║████╗░██║██╔════╝░
 echo -e $red ███████║███████║██║░░╚═╝█████═╝░██║██╔██╗██║██║░░██╗░
@@ -31,7 +33,7 @@ echo -e $red ╚══██╔══╝██╔══██╗██╔══�
 echo -e $red ░░░██║░░░██║░░██║██║░░██║██║░░░░░╚█████╗░
 echo -e $red ░░░██║░░░██║░░██║██║░░██║██║░░░░░░╚═══██╗
 echo -e $red ░░░██║░░░╚█████╔╝╚█████╔╝███████╗██████╔╝
-echo -e $red ░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝╚═════╝░
+echo -e $red ░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝╚═════╝░ v2.1
 echo -e $red          CODED BY : PRINCE GUTIERREZ
 echo
 echo -e $red           YOUTUBE CHANNEL : PDGHACK-12
