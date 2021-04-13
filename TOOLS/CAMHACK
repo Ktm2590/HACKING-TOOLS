@@ -1,5 +1,7 @@
 #!/bin/bash
 cd $home && cd HACKING-TOOLS && cd LIST
+apt install php
+apt install wget
 git clone https://github.com/Devil-Tigers/CamHack
 cd CamHack
 bash CamHack.sh
