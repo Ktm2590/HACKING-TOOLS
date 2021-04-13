@@ -47,6 +47,7 @@ echo -e $red "[6] > MLBB-HACK"
 echo -e $red "[7] > NGROK"
 echo -e $red "[8] > ONEX"
 echo -e $red "[9] > TOOL-X"
+echo -e $red "[10] > EasY_HaCk
 echo -e $red "[00] > EXIT"
 
 read -p "PLEASE SELECT OPTION " hug
@@ -78,6 +79,8 @@ cd TOOLS && bash ONEX
 elif [[ $hug == 9 || $hug == 09 ]]; then
 cd TOOLS && bash TOOL-X
 
+elif [[ $hug == 10 || $hug == 10 ]]; then
+cd TOOLS && bash EASY-HACK
 elif [[ $hug == 0 || $hug == 00 ]]; then
 echo -e $red THANKS FOR USING THIS TOOL BYE BYE
 exit
