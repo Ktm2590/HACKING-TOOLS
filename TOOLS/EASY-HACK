@@ -1,0 +1,6 @@
+cd $HOME && cd HACKING-TOOLS && cd LIST
+apt install git
+git clone https://github.com/sabri-zaki/EasY_HaCk
+cd EasY_HaCk
+chmod +x install.sh
+bash install.sh && EasY-HaCk
