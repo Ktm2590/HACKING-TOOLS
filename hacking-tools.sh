@@ -88,6 +88,13 @@ sleep 2
 exit
 else echo -e $blue INVALID OPTIONS PLEASE TRY AGAIN
 bash hacking-tools.sh
+echo
+echo
+echo
+echo
+echo
+echo
+sleep 2
 fi
 
 }
