@@ -1,7 +1,5 @@
 #!/bin/bash
 cd $home && cd HACKING-TOOLS && cd LIST
-termux-setup-storage
-cd /sdcard
 pkg install git
 pkg install python2
 pkg install ruby
