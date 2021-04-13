@@ -1,5 +1,6 @@
 #!/bin/bash
 cd $home && cd HACKING-TOOLS && cd LIST
+apt install python2
 git clone https://github.com/N74NK/MLBBTOOL
 cd MLBBTOOL
 python2 run.py
