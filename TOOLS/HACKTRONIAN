@@ -1,5 +1,6 @@
 #!/bin/bash
 cd $home && cd HACKING-TOOLS && cd LIST
+apt install python2
 git clone https://github.com/thehackingsage/hacktronian
 cd hacktronian
 python2 hacktronian.py
