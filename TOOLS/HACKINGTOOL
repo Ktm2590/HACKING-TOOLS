@@ -1,5 +1,6 @@
 #!/bin/bash
 cd $home && cd HACKING-TOOLS && cd LIST
+apt install python
 git clone https://github.com/Z4nzu/hackingtool.git
 chmod 777 hackingtool  
 cd hackingtool
