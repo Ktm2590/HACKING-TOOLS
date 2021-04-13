@@ -2,5 +2,5 @@
 cd $home && cd HACKING-TOOLS && cd LIST
 git clone https://github.com/rajkumardusad/onex.git
 cd onex
-chmod +x onex/install
-./onex/install
+chmod +x onex
+bash install && bash onex
