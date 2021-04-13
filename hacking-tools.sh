@@ -47,10 +47,10 @@ echo -e $red "[6] > MLBB-HACK"
 echo -e $red "[7] > NGROK"
 echo -e $red "[8] > ONEX"
 echo -e $red "[9] > TOOL-X"
-echo -e $red "[10] > EasY_HaCk
+echo -e $red "[10] > EasY_HaCk"
 echo -e $red "[00] > EXIT"
 
-read -p "PLEASE SELECT OPTION " hug
+read -p "SELECT OPTIONS " hug
 
 if [[ $hug == 1 || $hug == 01 ]]; then
 cd TOOLS && bash FB-BRUTE
