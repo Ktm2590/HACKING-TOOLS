@@ -18,10 +18,24 @@ command -v git > /dev/null 2>&1 || { echo >&2 "I require git but it's not instal
 
 tools(){
 
-echo -e $red CODED BY : PRINCE GUTIERREZ
-echo -e $red YOUTUBE CHANNEL : PDGHACK-12
-echo -e $red v2.1
 
+
+echo -e $red ██╗░░██╗░█████╗░░█████╗░██╗░░██╗██╗███╗░░██╗░██████╗░
+echo -e $red ██║░░██║██╔══██╗██╔══██╗██║░██╔╝██║████╗░██║██╔════╝░
+echo -e $red ███████║███████║██║░░╚═╝█████═╝░██║██╔██╗██║██║░░██╗░
+echo -e $red ██╔══██║██╔══██║██║░░██╗██╔═██╗░██║██║╚████║██║░░╚██╗
+echo -e $red ██║░░██║██║░░██║╚█████╔╝██║░╚██╗██║██║░╚███║╚██████╔╝
+echo -e $red ╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚═╝╚═╝░░╚══╝░╚═════╝░
+echo -e $red ████████╗░█████╗░░█████╗░██╗░░░░░░██████╗
+echo -e $red ╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░██╔════╝
+echo -e $red ░░░██║░░░██║░░██║██║░░██║██║░░░░░╚█████╗░
+echo -e $red ░░░██║░░░██║░░██║██║░░██║██║░░░░░░╚═══██╗
+echo -e $red ░░░██║░░░╚█████╔╝╚█████╔╝███████╗██████╔╝
+echo -e $red ░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝╚═════╝░
+echo -e $red          CODED BY : PRINCE GUTIERREZ
+echo
+echo -e $red           YOUTUBE CHANNEL : PDGHACK-12
+echo
 echo -e $red "[1] > FACEBOOK-BRUTE-FORCE"
 echo -e $red "[2] > HACKER-TOOLS"
 echo -e $red "[3] > HACKINGTOOLS"
@@ -31,6 +45,7 @@ echo -e $red "[6] > MLBB-HACK"
 echo -e $red "[7] > NGROK"
 echo -e $red "[8] > ONEX"
 echo -e $red "[9] > TOOL-X"
+echo -e $red "[00] > EXIT"
 
 read -p "PLEASE SELECT OPTION " hug
 
@@ -61,6 +76,9 @@ cd TOOLS && bash ONEX
 elif [[ $hug == 9 || $hug == 09 ]]; then
 cd TOOLS && bash TOOL-X
 
+elif [[ $hug == 00 || $hug == 00 ]]; then
+echo -e $red THANKS FOR USING THIS TOOL BYE BYE
+exit
 sleep 2
 exit
 else echo -e $blue INVALID OPTIONS PLEASE TRY AGAIN
